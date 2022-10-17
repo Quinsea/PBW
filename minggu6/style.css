@@ -1,0 +1,287 @@
+body{
+    background-color:whitesmoke;
+    margin:0px;
+    padding:0px;
+}
+ 
+section{
+    width:100%;
+    height:95vh;
+    position: relative;
+}
+ 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height:60px;
+    background-color:rgb(99, 212, 247);
+    padding:0px 5%;
+    list-style:none;
+     
+}
+  
+.menu {
+    background-color: rgb(39, 116, 129);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.menu:hover {
+    background-color: whitesmoke;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.drop-1 {
+    display: none;
+    background-color: skyblue;
+    min-width: 100px;
+}
+.drop-1 a {
+    color: blue;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .drop-1 {
+    display: block;
+}
+ 
+.active{
+    color:#2d2a2a;
+    font-weight:bold;
+}
+
+
+
+
+
+
+
+.text p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
+}
+ 
+.text p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #1a1a1a;
+    font-size: 60px;
+}
+ 
+.text p:nth-child(3){
+    font-family: myriad pro regular;
+    color: #403e3e;
+    font-size: 30px;
+    line-height: 30px;
+}
+ 
+.text p:nth-child(4){
+    font-family: myriad pro regular;
+    color: #403e3e;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+
+}
+.text p:nth-child(5){
+    font-family: calibri;
+    color: #1a1a1a;
+    font-size: 17px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.text p{
+    line-height: 0px;
+    margin: 55px 0px 25px;
+}
+ 
+.text{
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%, -42%);
+}
+ 
+
+.model{
+    height: 450px;
+    position: absolute;
+    top: 250px;
+    left: 80%;
+    transform: translateX(-70%);
+}
+
+ 
+
+
+footer p{
+    font-family: calibri;
+}
+ 
+footer p:nth-child(1){
+    font-size: 30px;
+    font-weight:bold;
+    color:#FFFFFF;
+    line-height:10px;
+}
+ 
+footer p:nth-child(2){
+    font-size: 16px;
+    color:#7e7d7d;
+    width:600px;
+    text-align: center;
+}
+ 
+footer{
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(2, 2, 97);
+}
+ 
+.scl-icon a{
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#e6e3e3;
+    margin:20px 10px;
+    border-radius:50%;
+}
+ 
+.scl-icon{
+    display: flex;
+     
+}
+ 
+.scl-icon i,.social i{
+    color:#000000;
+}
+ 
+.scl-icon a:hover{
+    background-color:#000000;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    transition:all ease 0.5s;
+}
+ 
+.scl-icon a:hover i,
+.social a:hover i{
+    color:#FFFFFF;
+    transition:all ease 0.5s;
+}
+  
+.copyright{
+    color:#565555;
+    font-size: 15px;
+    position: absolute;
+    left:50%;
+    bottom:10px;
+    transform: translateX(-50%);
+}
+.social{
+    position: fixed;
+    top:50%;
+    right:0px;
+    transform:translateY(-50%);
+}
+ 
+.social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height:50px;
+    margin:0px;
+    padding: 0px;
+    line-height:0px;
+    background-color:#FFFFFF;
+    border:1px solid #CBCBCB;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+}
+ 
+.social a:hover{
+    background-color:#000000;
+    transition:all ease 0.5s;
+}
+ 
+.social i{
+    font-size:20px;
+    color:#2B2B2B;
+}
+
+.Text-about{
+    text-align: center;
+}
+.Text-about p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+ 
+.Text-about p:nth-child(2){
+    font-family: calibri;
+    color: black;
+    font-size: 20px;
+}
+ 
+.Text-about p:nth-child(3){
+    font-family: calibri;
+    color: black;
+    font-size: 20px;
+
+}
+ 
+.Text-about p:nth-child(4){
+    font-family: calibri;
+    color: black;
+    font-size: 20px;
+
+}
+.Text-about p:nth-child(5){
+    font-family: calibri;
+    color: black;
+    font-size: 20px;
+
+}
+
+
+.download-cv{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+    color: #000000;
+    list-style:none;
+}
+button:active{
+    transform: scale(1.1);
+}
+.Kontak p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
+}
+.Kontak{
+    text-align: center;
+}
